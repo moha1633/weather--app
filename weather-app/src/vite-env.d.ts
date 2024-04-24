@@ -1,6 +1,7 @@
 // vite-env.d.ts
 
 interface WeatherData {
+    list: any;
     coord?: {
       lat: number;
       lon: number;

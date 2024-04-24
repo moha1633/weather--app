@@ -1,7 +1,16 @@
 /* styles.css */
+
 .app {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background-image: url(../src/assets/image/cold.jpg); /* Add this line to set the background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
